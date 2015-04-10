@@ -1,0 +1,39 @@
+---doxx---
+
+extension: do
+
+---doxx---
+
+/****************
+*
+* Setup
+*
+*****************/
+
+cap log close
+set more off
+clear
+set mem {{memory}}
+
+* log file *
+log using {{log-filepath}}, replace
+
+* data source *
+use {{data-filepath}}
+
+
+/*****************
+*
+* Analysis
+*
+******************/
+
+
+
+
+/******************
+*
+* Cleanup
+*
+*******************/
+log close
