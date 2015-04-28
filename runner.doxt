@@ -18,8 +18,8 @@ set mem {{memory}}
 * log file *
 log using {{log-filepath}}, replace
 
-* data source *
-use {{data-filepath}}
+* Use raw or output data, usually we start with raw  *
+use {{input-datapath}}
 
 
 /*****************

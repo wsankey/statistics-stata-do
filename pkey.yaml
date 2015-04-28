@@ -10,5 +10,6 @@ memory: 100m
 # Define your output log filepath
 log-filepath: analysis.log
 
-# Define your data source filepath
-data-filepath:
+# Define your input and output data source filepaths
+input-datapath:
+output-datapath:
